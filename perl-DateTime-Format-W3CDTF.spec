@@ -6,33 +6,36 @@
 %define	pdir	DateTime
 %define	pnam	Format-W3CDTF
 Summary:	DateTime::Format::W3CDTF - Parse and format W3CDTF datetime strings
-#Summary(pl):
+Summary(pl.UTF-8):	DateTime::Format::W3CDTF - analizowanie i formatowanie łańcuchów dat W3CDTF
 Name:		perl-DateTime-Format-W3CDTF
 Version:	0.04
 Release:	0.1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-authors/id/K/KE/KELLAN/DateTime-Format-W3CDTF-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-authors/id/K/KE/KELLAN/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	5ad0a41bb5de08f9c16395ea311bb491
+URL:		http://search.cpan.org/dist/DateTime-Format-W3CDTF/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-%if %{with tests}
-%endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This module understands the W3CDTF date/time format, an ISO 8601
-profile, defined at http://www.w3.org/TR/NOTE-datetime. This format as
-the native date format of RSS 1.0.
+profile, defined at <http://www.w3.org/TR/NOTE-datetime>. This format
+as the native date format of RSS 1.0.
 
 It can be used to parse these formats in order to create the
 appropriate objects.
 
+%description -l pl.UTF-8
+Ten moduł rozumie format daty/czasu W3CDTF w profilu ISO 8601,
+zdefiniowany w <http://www.w3.org/TR/NOTE-datetime>. Jest to natywny
+format daty w RSS 1.0.
 
-
-# %description -l pl # TODO
+Moduł można wykorzystać do analizy tych formatów w celu utworzenia
+odpowiednich obiektów.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
