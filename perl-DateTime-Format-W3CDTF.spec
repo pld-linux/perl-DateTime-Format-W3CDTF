@@ -13,7 +13,7 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-authors/id/K/KE/KELLAN/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/DateTime/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	5ad0a41bb5de08f9c16395ea311bb491
 URL:		http://search.cpan.org/dist/DateTime-Format-W3CDTF/
 BuildRequires:	perl-devel >= 1:5.8.0
