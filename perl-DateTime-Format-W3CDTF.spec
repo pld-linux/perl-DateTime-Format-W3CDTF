@@ -62,5 +62,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_vendorlib}/DateTime/Format/*.pm
-%{_mandir}/man3/*
+%{perl_vendorlib}/DateTime/Format/W3CDTF.pm
+%{_mandir}/man3/DateTime::Format::W3CDTF.3pm*
