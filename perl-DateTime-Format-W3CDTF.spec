@@ -8,13 +8,13 @@
 Summary:	DateTime::Format::W3CDTF - Parse and format W3CDTF datetime strings
 Summary(pl.UTF-8):	DateTime::Format::W3CDTF - analizowanie i formatowanie łańcuchów dat W3CDTF
 Name:		perl-DateTime-Format-W3CDTF
-Version:	0.06
+Version:	0.07
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/DateTime/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	7eb2a90b78e7e2232eddbd6dd6758a23
+# Source0-md5:	9b4fa51057422b3facc4746b744807d9
 URL:		http://search.cpan.org/dist/DateTime-Format-W3CDTF/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
