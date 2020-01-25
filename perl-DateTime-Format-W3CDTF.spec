@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	DateTime
 %define	pnam	Format-W3CDTF
 Summary:	DateTime::Format::W3CDTF - Parse and format W3CDTF datetime strings
